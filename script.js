@@ -28,6 +28,41 @@ const cifra = [
     event.preventDefault()
     document.querySelector('#mensagem-form').reset()
   })
+
+  // for (let i = 0; i < cifra.length; i++) {
+  //   if (cifra[i].value === 'Cifrar mensagem'){
+  //       cifra[i].addEventListener('click', function(e){
+  //         e.preventDefault()
+  //         return elementos[2].value = encode(elementos[0].value, parseInt(elementos[1].value));
+  //       })
+  //     }
+  //     else {
+  //       cifra[i].addEventListener('click', function(e) {
+  //         e.preventDefault()
+  //         return elementos[2].value = encode(elementos[0].value, parseInt(elementos[1].value) < 0);
+  //       })
+  //     }
+  // }
+  
+  // let cesar = document.querySelectorAll('.cifrarDecifrar')
+  //   for (let i = 0; i < cesar.length; i++) {
+  //     if (cesar[i].value === "Cifrar mensagem") {
+  //       cesar[i].addEventListener('click', (event) => {
+  //         event.preventDefault()
+  //         let rota = parseInt(document.querySelector('#rota').value);
+  //         let texto = document.querySelector('#mensagem-entrada').value;
+  //         return document.querySelector('#mensagem-saida').value = encode(texto, rota);
+  //       })
+  //     }
+  //     else {
+  //         cesar[i].addEventListener('click', (event) => {
+  //         event.preventDefault()
+  //         let rota = (parseInt(document.querySelector('#rota')).value) < 0;
+  //         let texto = document.querySelector('#mensagem-entrada').value;
+  //         return document.querySelector('#mensagem-saida').value = encode(texto, rota);
+  //       })
+  //     }
+  //   }
   
   const encode = (text, shift) => {
     if (shift < 0) {

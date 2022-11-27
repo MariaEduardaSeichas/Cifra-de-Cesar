@@ -9,15 +9,18 @@
 </head>
 <body>
     <div class="container">
-     <label class="titulo">Mensagem a ser digitada:</label>
-     <textarea rows="10" cols="40" maxlength="500"></textarea>
+        <form style=" width: 50vw; margin-left : 25vw; id="  mensagem-form" name="mensagem-form">
+            <label class="titulo">Escreva um texto: </label>
+            <textarea id="mensagem-cifra" name="mensagem-cifra" placeholder="Digite algo"
+              style="height:200px"></textarea>
 <div></div>
 <input type="submit" id="cifrar" class="mensagemCifrar" value="Cifrar Mensagem">
 <input type="submit" id="decifrar" class="mensagemCifrar" value="Decifrar Mensagem">
 <input type="submit" id="limpar" value="Limpar">
 <br>
 <label class="titulo">Mensagem cifrada: </label>
-<textarea rows="10" cols="40" maxlength="500"></textarea>    
+<textarea id="saida-mensagem" name="saida-mensagem" placeholder="A sua mensagem criptografada estará aqui"
+ style="height:200px"></textarea>
 </form>
   </div>
   <script src="script.js"></script>

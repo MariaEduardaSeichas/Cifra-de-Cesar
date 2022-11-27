@@ -1,0 +1,12 @@
+.container{
+    background-color: aquamarine;
+}
+
+.titulo{
+    font-style: italic;
+}
+
+.mensagemCifrar{
+    background-color: gray;
+    border-radius: 10px;
+}
